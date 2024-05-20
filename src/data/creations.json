@@ -1,0 +1,81 @@
+[
+  {
+    "creationId": "Project 1",
+    "title": "State reactive",
+    "description": "",
+    "creationDate": "25/04/2024",
+    "technos": ["JavaScript"],
+    "link": "https://github.com/lakaflibrairies/state-reactive",
+    "picture": "/assets/imgs/creations/project-1.png"
+  },
+  {
+    "creationId": "Project 2",
+    "title": "Dingo",
+    "description": "Application d'achat et d'envoi de SMS en masse.",
+    "creationDate": "25/04/2024",
+    "technos": [
+      "NodeJS",
+      "VueJS 3",
+      "Vue Material",
+      "Java SpringBoot",
+      "PostgreSQL"
+    ],
+    "link": "https://dingo.cm",
+    "picture": "/assets/imgs/creations/project-1.png"
+  },
+  {
+    "creationId": "Project 3",
+    "title": "Fret",
+    "description": "Application de suivi et de tracking de colis.",
+    "creationDate": "25/04/2024",
+    "technos": [
+      "NodeJS",
+      "VueJS 2.x et 3",
+      "Admin LTE",
+      "PostgreSQL",
+      "Java SpringBoot"
+    ],
+    "link": "https://fret.cm",
+    "picture": "/assets/imgs/creations/project-1.png"
+  },
+  {
+    "creationId": "Project 4",
+    "title": "Supervisor",
+    "description": "Application de supervision des activités internes en entreprise.",
+    "creationDate": "25/04/2024",
+    "technos": [
+      "NodeJS",
+      "VueJS 2.x et 3",
+      "Admin LTE",
+      "PostgreSQL",
+      "Java SpringBoot"
+    ],
+    "link": "https://supervisor.cm",
+    "picture": "/assets/imgs/creations/project-1.png"
+  },
+  {
+    "creationId": "Project 5",
+    "title": "Allo Rabbit",
+    "description": "Application de mise en relation des consommateurs et restaurateurs, proposant la livraison et la reservation de commandes.",
+    "creationDate": "25/04/2024",
+    "technos": [
+      "NodeJS",
+      "ExpressJS",
+      "Angular 14",
+      "Admin LTE",
+      "React Native",
+      "Maria DB"
+    ],
+    "link": null,
+    "picture": "/assets/imgs/creations/project-1.png"
+  },
+  {
+    "creationId": "Project 6",
+    "title": "Faseya",
+    "description": "Application de l'entreprise FASEYA permettant une mise en relation entre clients et professionels.",
+    "creationDate": "25/04/2024",
+    "technos": ["NodeJS", "React", "ExpressJS", "Maria DB"],
+    "link": "https://faseya.com",
+    "picture": "/assets/imgs/creations/project-1.png"
+  }
+]

@@ -1,22 +1,29 @@
 <script setup lang="ts">
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  faGithubAlt,
+  faLinkedinIn,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+// Then add it to library
+library.add(faGithubAlt, faLinkedinIn, faTwitter);
 </script>
 
 <template>
   <footer>
-    <span class="media-icon">
+    <span class="media-icon" title="LinkedIn">
       <a target="_blank" href="https://linkedin.com/in/vaneck-kaffo">
-        <FontAwesomeIcon :icon="['fab', 'linkedin-in']" />
+        <font-awesome-icon icon="fa-brands fa-linkedin-in" />
       </a>
     </span>
-    <span class="media-icon">
+    <span class="media-icon" title="Twitter">
       <a target="_blank" href="https://twitter.com">
-        <FontAwesomeIcon :icon="['fab', 'twitter']" />
+        <font-awesome-icon icon="fa-brands fa-twitter" />
       </a>
     </span>
-    <span class="media-icon">
+    <span class="media-icon" title="Github">
       <a target="_blank" href="https://github.com/vanlakaf">
-        <FontAwesomeIcon :icon="['fab', 'github']" />
+        <font-awesome-icon icon="fa-brands fa-github-alt" />
       </a>
     </span>
     <p>
@@ -31,7 +38,7 @@ footer {
   height: 130px;
   margin-top: 15px;
   padding-top: 15px;
-  background-color: #9a9a9a;
+  background-color: #3b3b3b;
   text-align: center;
   color: #dfdfdf;
   font-size: 1.2rem;
@@ -46,7 +53,7 @@ footer .media-icon {
   font-size: 22px;
 }
 
-footer .media-icon i {
-  color: black;
+footer .media-icon a {
+  color: #67a515;
 }
 </style>
